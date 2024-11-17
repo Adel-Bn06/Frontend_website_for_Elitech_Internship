@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elitech</title>
+    <link rel="shortcut icon" type="image/x-icon" href="ele.jpg" />
+    <link rel="stylesheet" href="stage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body id="prott">
+    <nav class="navbar navbar-expand-md " id="nbv">
+        <span id="sp" class="ps-4">
+            <img src="ele-removebg-preview.png" alt="ff" id="imge" >
+        </span>
+        
+        <div class="navbar-collapse collapse justify-content-center align-center">
+            <ul class="navbar-nav">
+                <li class="navbar-item px-3"><a id="link" href="home.html" class="nav-link text-decoration-none fw-bold lead " data-aos="flip-up">Home</a></li>
+                <li class="navbar-item px-3"><a id="link" href="sign.html" class="nav-link text-decoration-none lead fw-bold " data-aos="flip-up" onclick="signin()">Sign-In</a></li>
+                <li class="navbar-item px-3"><a id="link" href="#Contact" class="nav-link text-decoration-none lead fw-bold " data-aos="flip-up">Contact</a></li>
+                <li class="navbar-item px-3"><a id="link" href="protech.html" class="nav-link text-decoration-none lead fw-bold "  data-aos="flip-up">Start-up</a></li>
+                <li class="navbar-item px-3"><a id="link" href="#Contact" class="nav-link text-decoration-none lead fw-bold " data-aos="flip-up">Contact</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+   
+    <section class="container-fluid " > 
+        
+      <div class="container py-5 h-100"  >
+        <div class="row d-flex justify-content-centeralign-items-center h-100" >
+          <div class="col col-lg-6 mb-4 mb-lg-0">
+            <div class="card mb-3" style="border-radius: .5rem;">
+              <div class="row g-0">
+                <div class="col-md-4 gradient-custom text-center text-white"
+                  style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                  <img src="ele.jpg"
+                    alt="Avatar" class="img-fluid my-5 shadow-lg" style="width: 120px; border-radius: 50%;" />
+                  <h5 class="text-dark">ELITECH</h5>
+                  <div class="d-flex justify-content-center" >
+                    <a href="#!"><i class="bi bi-facebook fa-lg me-3 text-dark"></i></a>
+                    <a href="#!"><i class="bi bi-twitter fa-lg me-3 text-dark"></i></a>
+                    <a href="#!"><i class="bi bi-instagram fa-lg text-dark"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body p-4">
+                    <h6>Information</h6>
+                    <hr class="mt-0 mb-4">
+                    <div class="row pt-1">
+                      <div class="col-8 mb-3">
+                        <h6>Email</h6>
+                        <p class="text-muted">protechgabes@gmail.com</p>
+                      </div>
+                      <div class="col-8 mb-3">
+                        <h6>Phone</h6>
+                        <p class="text-muted">+216 31597990</p>
+                      </div>
+                    </div>
+                    <h6>Nombre des places disponible</h6>
+                    <hr class="mt-0 mb-4">
+                    <div class="row pt-1 ">
+                      <div class="col-4 mb-3 ">
+                        <h6 >Technisien</h6>
+                        <p class="text-muted text-center">5</p>
+                      </div>
+                      <div class="col-4 mb-3 ">
+                        <h6>Observation</h6>
+                        <p class="text-muted text-center">6</p>
+                      </div>
+                      <div class="col-4 mb-3 ">
+                        <h6>PFE</h6>
+                        <p class="text-muted text-center">4</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    </section>
+    <section class="container">
+      <div class="row mb-5">
+        <div class="card col-lg-12 me-5 shadow-lg" style="width: 500px; background-color: rgba(221,235,240,0.7);" data-aos="fade-up" id="az">
+          <div class="card-body" >
+            <h1 class="card-title fw-bold">Web Developement</h1>
+            <h3 class="card-subtitle text-muted text-center mt-2">To get more informations</h3>
+            <button class="btn btn-primary mt-4" onclick="web()">Show More</button>
+          </div>
+        </div>
+        <div class="card col-lg-12 shadow-lg " style="width: 500px; background-color: rgba(221,235,240,0.7);" data-aos="fade-up" id="az">
+          <div class="card-body" >
+            <h1 class="card-title fw-bold">Web Mobile</h1>
+            <h3 class="card-subtitle text-muted text-center mt-2">To get more informations</h3>
+            <button class="btn btn-primary text center mt-4" onclick="mobile()">Show More</button>
+          </div>
+        </div>
+        <div class="card col-lg-12 me-5 mt-5 shadow-lg" style="width: 500px; background-color: rgba(221,235,240,0.7);" data-aos="fade-up">
+          <div class="card-body">
+            <h1 class="card-title fw-bold">Data Science</h1>
+            <h3 class="card-subtitle text-muted text-center mt-2">To get more informations</h3>
+            <button class="btn btn-primary mt-4" onclick="data()">Show More</button>
+          </div>
+        </div>
+        <div class="card col-lg-12 mt-5 shadow-lg" style="width: 500px; background-color: rgba(221,235,240,0.7);" data-aos="fade-up">
+          <div class="card-body">
+            <h1 class="card-title fw-bold">Web Designer</h1>
+            <h3 class="card-subtitle text-center text-muted mt-2">To get more informations</h3>
+            <button class="btn btn-primary mt-4" onclick="design()">Show More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="stage.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
